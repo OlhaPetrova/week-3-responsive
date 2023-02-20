@@ -117,4 +117,12 @@ p {
 }
 .hero {
   background: lavender;
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
 }
