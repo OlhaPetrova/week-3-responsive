@@ -6,6 +6,7 @@
 
 body {
   margin: 60px auto;
+  background: rgb(195, 194, 194);
 }
 
 h1,
@@ -126,4 +127,7 @@ p {
     padding: 15px 10px;
   }
 }
-
+.img-fluid {
+  max-width: 600px;
+  max-height: 550px;
+}
