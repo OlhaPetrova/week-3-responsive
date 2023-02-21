@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #d10fcb;
   --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow: 0 5px 10px rgba(236, 222, 222, 0.3);
 }
 
 body {
@@ -87,6 +87,17 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+.hero {
+  background: black;
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #8c1d88;
+}
 @media (max-width: 750px) {
   h1 {
     font-size: 40px;
@@ -115,14 +126,4 @@ p {
     padding: 15px 10px;
   }
 }
-.hero {
-  background: lavender;
-  text-align: center;
-  padding: 160px 20px;
-}
-.hero p {
-  font-size: 36px;
-  font-weight: bold;
-  margin: 0;
-  color: #272142;
-}
+
