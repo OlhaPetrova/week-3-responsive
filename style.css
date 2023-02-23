@@ -39,6 +39,9 @@ p {
   font-size: 18px;
   line-height: 30px;
 }
+.content-container {
+  padding: 60px 20px;
+}
 
 .content h1 {
   font-size: 64px;
